@@ -1,0 +1,33 @@
+.country{
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.suppliers-title{
+    font-size: 24px;
+    color: #1c1c1c;
+}
+.country-box-wrapper{
+    margin-top:24px ;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    gap:15px ;
+}
+.country-box{
+    display: flex;
+    max-width: 220px;
+    gap: 10px;
+}
+.country-img{
+    max-width: 28px;
+    min-height: 20px;
+}
+.country-name{
+    font-size: 16px;
+    color: #1c1c1c;
+}
+.counrty-site{
+    font-size: 13px;
+    color: #8B96A5;
+}

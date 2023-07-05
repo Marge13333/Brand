@@ -1,0 +1,57 @@
+.newsllater{
+    width: 100%;
+    background-color: #EFF2F4;
+}
+.newslatter-wrapper{
+    max-width: 617px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 46px ;
+    text-align: center;
+    padding-top: 38px;
+    padding-bottom: 39px;
+}
+.newslatter-title{
+   color: #1c1c1c;
+    font-size: 20px;
+}
+.newslatter-text{
+    font-size: 16px;
+    color: #606060;
+}
+.newvslatter-input-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 21px;
+    gap: 8px;
+}
+.newslatter-input{
+    max-width: 274px;
+    width: 100%;
+    min-height: 40px;
+    border-radius: 6px;
+    border: 1px solid #DEE2E7;
+    outline: none;
+
+    padding-left: 10px;
+}
+.newslatter-input::placeholder{
+    background: url("./newsletter-img/email.svg") no-repeat;
+    background-position: 0px -3px;
+   padding-left: 26px; 
+}
+.newslatter-button{
+    cursor: pointer;
+    padding: 10px 16px;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: #127fff;
+    color: #ffffff;
+    outline: none;
+    border: 1px solid #127fff;
+    transition: all.3s;
+}
+.newslatter-button:hover{
+    background-color: transparent;
+    color: #127fff;
+}

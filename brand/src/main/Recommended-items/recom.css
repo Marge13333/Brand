@@ -1,0 +1,35 @@
+.recommended{
+    max-width: 1180px;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+}
+.recom-title{
+    font-size: 24px;
+    color: #1c1c1c;
+}
+.items-box-wrapper{
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.recom-items-box{
+    cursor: pointer;
+    background-color: #ffffFF ;
+    border: 1px solid #E0E0E0 ;
+    max-width: 220px;
+    border-radius: 4px;
+    padding: 10px;
+}
+.items-price{
+    margin-top: 15px;
+    font-size: 16px;
+    color: #1c1c1c;
+}
+.items-desc{
+    max-width: 186px;
+    color: #8b96a5;
+    font-size: 16px;
+    margin-top: 5px;
+}

@@ -1,0 +1,128 @@
+.inqiry{
+    background-image: url("./inquiry-img/Mask\ group.svg");
+    max-width: 1180px;
+    width: 100%;
+    min-height: 420px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.inqiry-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.inquiry-title{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.inquiry-main-title,.inquiry-main-title-two{
+    font-size: 33px;
+    color: #ffffff;
+}
+.inquiry-main-title-two{
+    margin-top: -10px;
+}
+.inquery-mini-text-wraper{
+    margin-top: 13px;
+}
+.inquiry-para{
+    font-size: 16px;
+    color: #ffffff;
+ 
+}
+.inquey-box{
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-right: 30px;
+    max-width: 491px;
+    min-height: 346px;
+    width: 100%;
+    border-radius: 6px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.inquery-box-title{
+    font-size: 20px;
+    color: #1c1c1c;
+}
+.inquery-input-item{
+    margin-top: 18px;
+    max-width: 440px;
+    width: 100%;
+    min-height: 40px;
+    border-radius: 6px;
+    border: 1px solid #DEE2E7;
+    padding-left: 10px ;
+    outline: none;
+    font-size: 16px;
+
+}
+.inquery-input-item::placeholder{
+    font-size: 16px;
+    color: #1c1c1c;
+}
+.inquery-input-detals{
+    margin-top: 18px;
+    max-width: 440px;
+    width: 100%;
+
+    border-radius: 6px;
+    border: 1px solid #DEE2E7;
+    padding-left: 10px;
+    outline: none;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 43px;
+}
+.inquery-input-detals::placeholder{
+    font-size: 16px;
+    color: #8B96A5;
+}
+.inquiry-mini-detals{
+    display: flex;
+    margin-top: 20px;
+}
+.inquiry-quantity{
+    max-width: 206px;
+    min-height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+}
+.inquiry-quantity::placeholder{
+    font-size: 16px;
+    color: #1c1c1c;
+}
+.pcs{
+    margin-left: 8px ;
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    max-width:111px ;
+    padding-left: 10px;
+    padding-top: 11px;
+    padding-right: 8px;
+    padding-bottom: 11px;
+    width: 100%;
+}
+.pcs-text{
+    font-size: 16px;
+    margin-top: -3px;
+}
+.inquiry-btn{
+    padding: 10px 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #127fff;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid #127fff;
+    transition: all.3s;
+}
+.inquiry-btn:hover{
+    background-color: transparent;
+    color: #127fff;
+}

@@ -1,0 +1,123 @@
+.intro{
+    max-width: 1180px;
+    width: 100%;
+    height: 400px;
+    background-color: #ffffFF;
+    border-radius: 5px;
+    margin: auto;
+    border: 1px solid #E5F1FF ;
+    margin-top: 20px;
+}
+.intro-wrapper{
+    display: flex;
+    padding: 20px 20px;
+}
+.intro-list{
+    display: flex;
+    flex-direction: column;
+}
+.list-btn{
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #505050;
+    border: none;
+    text-align: start;
+    padding: 10px;
+    transition: all.3s;
+}
+.list-btn:hover{
+    cursor: pointer;
+    background-color: #E5F1FF;
+    color: #1C1C1C;
+}
+.intro-slide{
+    background-image: url('./intro-img//Mask\ group.jpg');
+    max-width: 665px;
+    width: 100%;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+.intro-first-title{
+    font-size: 28px;
+    color: #1C1C1C;
+}
+.bg-wrapper{
+    margin-top: 55px;
+    margin-left: 45px;
+}
+.intro-second-titlle{
+    font-size: 32px;
+    color: #1C1C1C;
+}
+.learn-more-btn{
+    cursor: pointer;
+   max-width: 120px;
+   width: 100%;
+   height: 40px;
+   border: none;
+   border-radius: 5px;
+   margin-top: 17px;
+}
+.offers{
+ margin-left: 20px;
+ max-width: 200px;
+}
+.user{
+    background-color: #E3F0FF;
+    border-radius: 5px;
+    padding: 14px 10px;
+}
+.user-profile{
+    display: flex;
+    gap: 10px;
+}
+.user-text{
+    font-size: 16px;
+    color: #1C1C1C;
+}
+.join-us{
+    cursor: pointer;
+    height: 30px;
+    max-width: 180px;
+    background-color: #127FFF;
+    color: #FFFFFF;
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 15px;
+    border: 1px solid #0067FF;
+    transition: all.3s;
+}
+.join-us:hover{
+    background-color: transparent;
+    color: #0067FF;
+}
+.log-in{
+    cursor: pointer;
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+    height: 30px;
+    max-width: 180px;
+    width: 100%;
+    margin-top: 5px;
+    transition: all.3s;
+}
+.log-in:hover{
+    opacity: 0.7;
+}
+.mini-offer-one{
+    background-color: #F38332;
+    color: #FFFFFF;
+    padding: 16px;
+    margin-top: 8px;
+    border-radius: 6px;
+}
+.mini-offer-two{
+    background-color: #55BDC3;
+    color: #FFFFFF;
+    padding: 16px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
