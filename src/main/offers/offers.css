@@ -7,7 +7,6 @@
     display: flex;
     border-radius: 5px;
     margin: auto;
-    border: 1px solid #E5F1FF ;
     margin-top: 30px;
 }
 .deals-wrapper{
@@ -51,11 +50,12 @@
 }
 .items-box{
     cursor: pointer;
-    padding: 8px 25px 15px 25px;
+    padding: 8px 22px 17px 21px;
     text-align: center;
     border: 1px solid #E5F1FF ;
 }
 .items-box-name{
+    margin-top: 11px;
     font-size: 16px;
     color: #1c1c1c;
 }
@@ -135,3 +135,170 @@ color: #eb001b;
   margin-bottom: 10px;
   margin-right: 8px;
 }
+.idk-3{
+    display: flex;
+    flex-direction: column;
+}
+#home-outdor-title{
+    display: none;
+}
+.Source-wrapper{
+    display: none;
+}
+@media (width <= 375px){
+    .main-deals{
+        margin-top: 10px;
+    }
+    .main-deals{
+        flex-direction: column;
+    }
+    .deals-wrapper{
+        align-items: center;
+        display: flex;
+    }
+    .deals-wrapper{
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .offers-mini-text{
+        font-size: 18px;
+    }
+    .offers-mini-text-second{
+        font-size: 13px;
+    }
+    .count{
+        display: flex;
+        gap: 5px;
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+    .days{
+        background-color: #EFF2F4;
+        border-radius: 4px;
+        min-width: 45px;
+        min-height: 44px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .count-number{
+        color: #8B96A5;
+        font-size: 16px;
+    }
+    .count-para{
+        color: #8B96A5;
+    }
+    #days-del{
+        display: none;
+    }
+    #del-ofer{
+        display: none;
+    }
+
+    .main-items{
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr;
+        margin-left: 0px;
+    }
+    .items-box{
+        cursor: pointer;
+        width: 140px;
+        padding: 0;
+        min-height: 180px;
+        text-align: center;
+        border: 1px solid #E5F1FF ;
+    }
+    .items-box-name{
+        font-size: 16px;
+        color: #1c1c1c;
+    }
+    .offers-price{
+        background-color: #ffe3e3;
+        max-width: 35px;
+        margin: auto;
+        margin-top: 8px;
+        border-radius: 29px;
+        padding: 5px 13px;
+    font-size: 14px;
+    color: #eb001b;
+    }
+    #home-outdor-title{
+        display: block;
+    }
+    .home-outdoor,.home-outdoor-vol2{
+        display: none;
+    }
+    .items-box-img{
+        max-width: 98px;
+    }
+    .items-box-name{
+        margin-top: 4px;
+        font-size: 13px;
+    }
+    .home-offres{
+        max-width: 1180px;
+        width: 100%;
+        height: auto;
+        background-color: #ffffFF;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        margin: auto;
+        border: none ;
+        margin-top: 20px;
+    }
+    .home-items{
+        display: grid;
+        margin-top: 15px;
+        grid-template-columns:1fr 1fr 1fr;
+    }
+    .home-offers-title{
+        margin-left: -5px;
+        text-align: center;
+    }
+    .home-offers-box{
+        cursor: pointer;
+        border: 1px solid #E5F1FF ;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 140px;
+    }
+    .offers-image{
+        margin: 0;
+    }
+    .idk-3{
+         flex-direction: row;
+    }
+    .home-offres{
+        margin-top: 54px;
+    }
+    .homeOutdoor-title{
+        font-size: 16px;
+        color: #1C1C1C;
+        margin-left: 16px;
+    }
+    .Source-wrapper{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 20px;
+        align-items: center;
+        gap: 6px;
+    }
+    .source-now{
+        color: #0D6EFD;
+        font-size: 16px;
+    }
+    .arrow{
+        margin-top: 2px;
+    }
+    #margin-ofer{
+        margin-top: 20px;
+    }
+
+}
+
+    

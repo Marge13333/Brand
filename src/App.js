@@ -1,5 +1,6 @@
 import './App.css';
 import Main from "./main/main"
+import ListView from './listview/listview';
 import {
   BrowserRouter,
 Routes,  Route,
@@ -10,8 +11,7 @@ function App() {
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Main/>} />
-      {/* <Route path="list" element={<Expenses />} /> */}
-      {/* <Route path="detals" element={<Invoices />} /> */}
+      <Route path="List" element={<ListView/>}/>
     </Routes>
   </BrowserRouter>
   

@@ -33,3 +33,34 @@
     font-size: 16px;
     margin-top: 5px;
 }
+@media (width <= 375px){
+    
+   #delate-offer{
+    display: none;
+   }
+   .recom-title{
+    font-size: 18px;
+}
+.recommended{
+    margin-top: 20px;
+}
+.items-box-wrapper{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 10px;
+}
+.recom-items-box{
+    cursor: pointer;
+    background-color: #ffffFF ;
+    border: 1px solid #E0E0E0 ;
+    max-width: 165px;
+    border-radius: 4px;
+    padding: 10px;
+}
+.recom-items-img{
+    max-width: 152px;
+    width: 100%;
+    min-height: 152px;
+}
+}

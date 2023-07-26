@@ -1,0 +1,74 @@
+.listView-header-wraper{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #ffffff;
+}
+.listViewHeader{
+    background-color: #ffffff;
+}
+.header-back{
+    
+    display: flex;
+    gap: 16px;
+    align-items: end;
+}
+.Mobile-accessory{
+    font: size 18px; 
+    color: #1C1C1C;
+}
+.listview-header-nav{
+    display: flex;
+    gap: 20px;
+}
+.header-listr-line{
+    background-color: #dee2e7;
+    height: 1px;
+    width: 100%;
+}
+.header-listview-sort{
+    display:flex ;
+    padding: 10px;
+    gap: 5px;
+}
+.newest-ttile{
+    margin-top: -3px;
+    font-size: 16px;
+    color: #1C1C1C;
+}
+.Newest{
+    padding: 6px 6px 6px 17px;
+    border: 1px solid  #dee2e7;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    align-items: center;
+    gap: 12px;
+}
+.header-filter{
+    padding: 6px 6px 6px 17px;
+    border: 1px solid  #dee2e7;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    align-items: center;
+    gap: 12px;
+}
+.sortby-brand{
+    padding: 10px;
+    display: flex;
+    gap: 7px;
+}
+.header-brand-sort-title{
+    font-size: 16px;
+    color: #505050;
+}
+.header-brand-sort-wrappe{
+    padding: 8px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #0D6EFD;
+    border-radius: 6px;
+}

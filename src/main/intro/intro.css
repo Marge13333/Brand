@@ -121,3 +121,57 @@
     margin-top: 10px;
     border-radius: 6px;
 }
+.baner{
+    display: none;
+}
+@media (width <= 375px){
+    .intro-list,.offers{
+        display: none;
+    }
+    .intro-slide{
+        background-image: none;
+        max-width: 665px;
+        width: 100%;
+        margin-left: 10px;
+        border-radius: 3px;
+    }
+    .intro-slide{
+        background-image: url('./intro-img/Banner-board-800x420\ 2.svg');
+        max-width: 365px;
+        width: 100%;
+        min-height: 180px;
+        margin-left: 10px;
+        border-radius: 3px;
+    }
+    .intro-wrapper{
+        padding: 0;
+    }
+    .intro-slide{
+        margin-left: 0px;
+    }
+    .intro{
+        margin-top:0px;
+        height:180px ;
+    }
+    .intro-first-title{
+        font-size: 18px;
+        color: #1C1C1C;
+    }
+    .bg-wrapper{
+        margin-top: 24px;
+        margin-left: 22px;
+    }
+    .intro-second-titlle{
+        font-size: 18px;
+        color: #1C1C1C;
+    }
+    .learn-more-btn{
+        cursor: pointer;
+       max-width: 91px;
+       width: 100%;
+       height: 30px;
+       border: none;
+       border-radius: 5px;
+       margin-top: 17px;
+    }
+}

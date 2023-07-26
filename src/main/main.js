@@ -7,6 +7,7 @@ import Service from "./service/service"
 import Country from "./country/country"
 import Newslatter from './newsletter/newsletter'
 import Footer from "./footer/footer"
+import "../main/main.css"
 import {
     Link
   } from "react-router-dom";
@@ -20,10 +21,12 @@ const Main = () =>{
         <Offers/>
         <Inquiry/>
         <Recommended/>
+        <div className="mobile-version">
         <Service/>
         <Country/>
         <Newslatter/>
         <Footer/>
+        </div>
     </div>
 
     )

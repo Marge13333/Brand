@@ -1,0 +1,5 @@
+@media (width <= 375px){
+    .mobile-version{
+        display: none;
+    }
+}

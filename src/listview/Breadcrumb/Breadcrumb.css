@@ -1,0 +1,24 @@
+.breadcrumb{
+    max-width: 100%;
+}
+.Breadcrumb-wrappper{
+   margin-left: 133px;
+   display:flex ;
+   gap: 6px;
+}
+.Breadcrumb-box{
+    display: flex;
+    gap: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    }
+.Breadcrumb-text{
+
+    color: #8B96A5;
+    font-size: 16px;
+cursor: pointer;
+}
+.dropright{
+    margin-top: 2px;
+}

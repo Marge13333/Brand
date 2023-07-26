@@ -2,8 +2,11 @@ import {
     Link
   } from "react-router-dom";
 import "./intro.css"
+import { useState } from "react";
 
 const Intro = () =>{
+    
+
     return(
         <section className="intro">
             <div className="intro-wrapper">
@@ -24,6 +27,8 @@ const Intro = () =>{
                     <h3 className="intro-second-titlle">Electronic items</h3>
                     <button className="learn-more-btn">Learn more</button>
                     </div>
+                    
+                    
                 </div>
                 <div className="offers">
                     <div className="user">

@@ -1,0 +1,11 @@
+.mobile-version-listview-header{
+    display: none;
+}
+@media (width <= 375px){
+    .mobile-version-listview-header{
+        display: block;
+    }
+    .delate-header,.mobile-version-listview{
+        display: none;
+    }
+}

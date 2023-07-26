@@ -126,3 +126,55 @@
     background-color: transparent;
     color: #127fff;
 }
+#delofer-2{
+    display: none;
+}
+@media (width <= 375px){
+    .inqiry{
+        background-image: url("./inquiry-img/Mask\ group\ \(5\).svg");
+        max-width: 1180px;
+        width: 100%;
+        min-height: 155px;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+    .inquey-box,.inquery-mini-text-wraper{
+        display: none;
+    }
+    .inquiry-main-title,.inquiry-main-title-two{
+        font-size: 18px;
+    }
+    .inquiry-title{
+        margin-top: 25px;
+        margin-left: 23px;
+    }
+    .inqiry-wrapper{
+        flex-direction: column;
+    }
+    .inquiry-btn{
+        margin: auto;
+        margin-top: 17px;
+        margin-left: 26px;
+    }
+    .inquiry-main-title-two{
+        margin-top: 1px;
+    }
+    .inquiry-btn{
+        padding: 7px 10px;
+        cursor: pointer;
+        margin-top: 20px;
+        background-color: #127fff;
+        color: #ffffff;
+        font-size: 13px;
+        border-radius: 6px;
+        outline: none;
+        border: 1px solid #127fff;
+        transition: all.3s;
+    }
+    #delofer-2{
+        display: block;
+    }
+    .home-offres {
+        margin-top: 13px; 
+    }
+}

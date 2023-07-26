@@ -15,6 +15,7 @@ const Inquiry = () =>{
                        <p className="inquiry-para">elit, sed do eiusmod tempor incididunt.</p>
                     </div>
                 </div>
+                <button id="delofer-2" className="inquiry-btn">Send inquery</button>
                 <div className="inquey-box">
                     <h2 className="inquery-box-title">Send quote to suppliers</h2>
                     <input className='inquery-input-item' type="text" placeholder="What item you need?"/> 

@@ -1,21 +1,30 @@
+import { useState, useRef } from 'react';
 import './header.css'
 import {
     Link
   } from "react-router-dom";
 const Header = () =>{
+  const Categorys = ['Automobiles',"Clothes and wear","Home interiors","Computer and tech","Tools, equipments","Sports and outdoor","Animal and pets","Machinery tools"]
+  const [open ,setOpen] = useState(false)
+  const [openFlag, setOpenFlag] = useState(false)
+  
+
     return(
        <section className="header">
          <div className="header-wrapper-first">
-            <div className="logo">
-               <img src={require('./header-img/logo-colored.svg').default} alt="logo" />
+          <Link to={'/'} >
+          <div className="logo">
+               <img className='menu-svg' src={require('./header-img/menu.svg').default} alt="logo" />
+               <img className='header-logo' src={require('./header-img/logo-colored.svg').default} alt="logo" />
             </div>
+          </Link>
             <div className="search">
               <input className='searchInput' type="text" placeholder="Search"  /> 
-              <div className="category">
-                <p className="categorys-title">ALL category</p>
-                <img className='dropdown-img' src={require('./header-img/dropdown.svg').default} alt="dropdown" />
+              <div onClick={()=>setOpen(!open)} className="category" >
+                   <p className="categorys-title">ALL category</p>
+                   <img className='dropdown-img' src={require('./header-img/dropdown.svg').default} alt="dropdown" />
               </div>
-              <button className="search-Btn">Search</button>
+              <Link className="search-Btn" to={'/List'}>Search</Link>
             </div>
             <div className="menu-wrapper">
                 <div className="menu">
@@ -36,8 +45,41 @@ const Header = () =>{
                       <p className="menu-text">My cart</p>
                     </div>
                 </div>
+                <div className='mobile-menu-wrapper'>
+                   <img src={require('./header-img/idkshpn.svg').default} alt="chart" />
+                   <img src={require('./header-img/persona.svg').default} alt="chart" />
+
+                </div>
             </div>
+            
          </div>
+         <div className='mobile-search-wrapper'>
+              <input className='searchInput' type="text" placeholder="Search"  /> 
+         </div>
+         <div className='mobile-menu-list-wrapper'>
+           <div className='header-mobile-list'>
+            <p className='mobile-menu-list-title'>All category</p>
+            <p className='mobile-menu-list-title'>Gadgets</p>
+            <p className='mobile-menu-list-title'>Clocthes</p>
+            <p className='mobile-menu-list-title'>Accessory</p>
+           </div>
+         </div>
+         {
+          open && (
+            <div onClick={()=>setOpen(false)} className='categorys-drropdown'>
+            <ul className='categoris-list-drop'>
+              {
+                Categorys.map((menu)=>(
+                  <p className='cat-text' key={menu}>
+                    {menu}
+                  </p>
+                ))
+              }
+            </ul>
+            </div>
+          )
+         }
+        
          <div className='line'></div>
          <div className='header-wrapper-second'>
           <div className='list'>
@@ -61,7 +103,7 @@ const Header = () =>{
               </p>
               <img src={require('./header-img/dropdown.svg').default} alt="dropdown" />
             </div>
-            <div className='value'>
+            <div onClick={()=> setOpenFlag(!openFlag)} className='value'>
               <p className='value-name'>
                 Ship to
               </p>
@@ -70,6 +112,38 @@ const Header = () =>{
             </div>
           </div>
          </div>
+         {
+          openFlag && (
+            <div   className='flags-wrapper'>
+          <div onClick={()=>setOpenFlag(false)} className='flags'>
+             <img className='flag-img' src={require('../country/country-img/Property 1=AE.svg').default} alt="flag" />
+             <p className='flags-name'>AE</p>
+            </div>
+            <div onClick={()=>setOpenFlag(false)} className='flags'>
+             <img className='flag-img' src={require('../country/country-img/Property 1=AU.svg').default} alt="flag" />
+             <p className='flags-name'>AU</p>
+            </div>
+            <div onClick={()=>setOpenFlag(false)} className='flags'>
+             <img className='flag-img' src={require('../country/country-img/Property 1=CN.svg').default} alt="flag" />
+             <p className='flags-name'>CN</p>
+            </div>
+            <div onClick={()=>setOpenFlag(false)} className='flags'>
+             <img className='flag-img' src={require('../country/country-img/Property 1=DE.svg').default} alt="flag" />
+             <p className='flags-name'>DE</p>
+            </div>
+            <div onClick={()=>setOpenFlag(false)} className='flags'>
+             <img className='flag-img' src={require('../country/country-img/Property 1=DK.svg').default} alt="flag" />
+             <p className='flags-name'>DK</p>
+            </div>
+           
+            <div onClick={()=>setOpenFlag(false)} className='flags'>
+             <img className='flag-img' src={require('../country/country-img/Property 1=RU.svg').default} alt="flag" />
+             <p className='flags-name'>RU</p>
+            </div>
+          </div>
+          )
+         }
+         
          <div className='line'></div>
        </section>
     )

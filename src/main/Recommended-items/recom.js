@@ -38,22 +38,22 @@ const Recommended = () =>{
                     <p className="items-price">$8.99</p>
                     <p className="items-desc">Canon camera black, 100x zoom</p>
                 </div>
-                <div className="recom-items-box">
+                <div id="delate-offer" className="recom-items-box">
                     <img className='recom-items-img' src={require('./recom-img/5.svg').default} alt="items"/>
                     <p className="items-price">$10.30</p>
                     <p className="items-desc">Headset for gaming with mic</p>
                 </div>
-                <div className="recom-items-box">
+                <div id="delate-offer" className="recom-items-box">
                     <img className='recom-items-img' src={require('./recom-img/7.svg').default} alt="items"/>
                     <p className="items-price">$10.30</p>
                     <p className="items-desc">Smartwatch silver color modern</p>
                 </div>
-                <div className="recom-items-box">
+                <div id="delate-offer" className="recom-items-box">
                     <img className='recom-items-img' src={require('./recom-img/8.svg').default} alt="items"/>
                     <p className="items-price">$80.95</p>
                     <p className="items-desc">Blue wallet for men leather metarfial</p>
                 </div>
-                <div className="recom-items-box">
+                <div id="delate-offer" className="recom-items-box">
                     <img className='recom-items-img' src={require('./recom-img/10.svg').default} alt="items"/>
                     <p className="items-price">$10.30</p>
                     <p className="items-desc">Jeans bag for travel for men</p>
