@@ -1,0 +1,48 @@
+.alibaba-items{
+    max-width: 1180px;
+    margin: 25px auto;
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+    background-color: #ffffff;
+    min-height: 475px;
+}
+.alibaba-items-wrapper{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.alibaba-items-save-for-later{
+    color: #1C1C1C;
+    font-size: 20px;
+}
+.alibaba-items-box-wrapper{
+    margin-top: 22px;
+    display: flex;
+    gap: 20px;
+}
+.alibaba-items-price{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #1C1C1C;
+}
+.alibaba-items-ptext{
+    margin-top: 10px;
+    color: #606060;
+    font-size: 16px;
+}
+.alibaba-items-btn{
+    border: 1px solid #DEE2E7;
+    max-width: 156px;
+    gap: 12px;
+    display: flex;
+    padding: 9px 3px 9px 13px;
+    margin-top: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all.3s;
+}
+
+.move-tocart-alibaba{
+    color: #0D6EFD;
+    font-size: 16px;
+}

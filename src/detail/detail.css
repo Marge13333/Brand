@@ -1,0 +1,7 @@
+@media (width <= 375px){
+    .detail-header-none{
+        display: none;
+    }
+
+  
+}

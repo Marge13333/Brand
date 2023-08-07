@@ -1,0 +1,42 @@
+.Banner{
+    background-image: url('./Banner-img//Rectangle\ 176\ \(2\).svg');
+    height: 120px;
+    max-width: 1180px;
+    width: 100%;
+    margin: 20px auto;
+    margin-bottom: 90px;
+}
+.Banner-wrapper{
+    margin-left: 28px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 45px;
+}
+.banner-title-wapper{
+    margin-top: 30px;
+}
+.banner-title{
+font-size: 24px;
+color: #FFFFFF;
+}
+.banner-title-text{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.Shop-now{
+    margin: auto;
+    margin-right: 0;
+    padding: 10px 16px;
+    background-color: #FF9017;
+    font-size:16px ;
+    color: #FFFFFF;
+    border: 1px solid #FF9017;
+    border-radius: 6px;
+    transition: all.3s;
+    cursor: pointer;
+    margin-top: 35px;
+}
+.Shop-now:hover{
+    background-color: transparent;
+      color: #FF9017;
+}

@@ -3,7 +3,7 @@ import SideBar from "./sideBar/sideBar"
 import "./mainlistview.css"
 const MainListView = () =>{
     return(
-        <div style={{display:"flex",gap:18}}>
+        <div style={{display:"flex",gap:38}}>
             <div className="sidebar-mobile">
             <SideBar/>
             </div>

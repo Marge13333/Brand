@@ -1,0 +1,200 @@
+.Intro-Detail{
+    max-width:1180px ;
+    width: 100%;
+    background-color:#FFFFFF ;
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+    min-height: 520px;
+    margin: 0 auto;
+} 
+.intro-detail-wrapper{
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+
+}
+.detail-intro-miini-img-wrapper{
+    display: flex;
+    cursor: pointer;
+    margin-top: 20px;
+    gap:9px ;
+}
+.intro-detail-mini-img{
+    max-width: 56px;
+}
+.intro-details-details{
+    text-align: start;
+    max-width: 430px;
+    width: 100%;
+}
+.inStock{
+    display: flex;
+}
+.instock-para{
+    font-size: 16px;
+    color: #00B517;
+}
+.intro-details-title{
+    margin-top: 5px;
+    max-width: 384px;
+    width: 100%;
+    color: #1c1c1c;
+    font-size: 20px;
+}
+.intro-detail-ratings{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.rating-para{
+    color: #FF9017;
+    font-size: 16px;
+}
+.reviews{
+    color:#787A80 ;
+    font-size: 16px;
+}
+.rating-details-prices-wrapper{
+    margin-top: 10px;
+    padding: 16px;
+    background-color:#FFF0DF ;
+    display: flex;
+}
+.rating-details-prices-box{
+    margin-left: 10px;
+}
+.vertical-line{
+    margin-left: 40px;
+}
+.s0-100-pcs-price{
+    font-size: 18px;
+    color: #FA3434;
+}
+.s0-100-pc{
+    font-size: 13px;
+    color: #606060;
+}
+.s00-pcs-price{
+font-size: 18px;
+color: #1C1C1C;
+}
+.intro-details-small-wrapper{
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+}
+.intro-details-name{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: start;
+}
+.hor-line{
+    position: absolute;
+    z-index: 0;
+    width: 430px;
+    height: 1px;
+    background-color: #E0E0E0;
+}
+.prct-name{
+    color: #8B96A5;
+    font-size: 16px;
+}
+.prct-text{
+    font-size: 16px;
+    color:#505050 ;
+}
+.intro-details-text{
+    max-width: 190px;
+    width: 100%;
+    display: flex;
+   flex-direction: column;
+   gap: 16px;
+   text-align: start;
+}
+.seller-info-box{
+    background-color: #FFFFFF;
+    border: 1px solid  #DEE2E7;
+    border-radius: 6px;
+    max-width: 280px;
+    margin-left: 10px;
+    width: 100%;
+}
+.seller-info-box-wrapper{
+    padding: 20px 16px;
+}
+.seller-profil{
+    display: flex;
+    gap: 10px;
+}
+.prct-text{
+    color: #505050;
+}
+.hor-line-2{
+    max-width: 257px;
+    width: 100%;
+    margin-top: 20px;
+    height: 1px;
+    background-color:#E0E0E0;
+}
+.saller-info-details{
+    display: flex;
+    gap: 15px;
+    margin-top:13px;
+}
+.saller-info-icons,.saller-info-icons-text{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-direction: column;
+}
+.saller-info-text{
+    font-size: 16px;
+    color: #8B96A5;
+}
+.saller-info-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.saller-info-inquiry-btn{
+   margin-left: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+    background-color: #127FFF;
+    color:#FFFFFF ;
+    border: 1px solid #0067FF;
+    border-radius: 6px;
+    padding: 10px 76px;
+    outline: none;
+    transition: all.3s;
+}
+.saller-info-inquiry-btn:hover{
+    background-color: #FFFFFF;
+    color:#0067FF ;
+}
+.saller-info-profil-btn{
+    margin-left: 10px;
+  
+    cursor: pointer;
+    background-color:  #FFFFFF;
+    color:#0D6EFD ;
+    margin-top: 10px;
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+    padding: 10px 71.5px;
+    outline: none;
+    transition: all.3s;
+}
+.save-for-later{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 23px;
+}
+.save-for-later-text{
+    cursor: pointer;
+    color: #0D6EFD;
+    font-size: 16px;
+}

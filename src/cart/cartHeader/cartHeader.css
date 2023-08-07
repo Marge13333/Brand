@@ -1,0 +1,14 @@
+.Cart-Header{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.Cart-Header-wrapper{
+    max-width: 1180px;
+    padding-top: 20px;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}

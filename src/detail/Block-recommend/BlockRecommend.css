@@ -1,0 +1,33 @@
+.Block-Recommend{
+    max-width: 1180px;
+    width: 100%;
+    background-color: #ffff;
+    border: 1px solid #DEE2E7;
+    min-height: 350px;
+    margin: 0 auto;
+    border-radius: 6px;
+    margin-top:20px ;
+}
+.Block-Recommend-wrapper{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.Block-Recommend-title{
+    font-size: 20px ;
+    color: #1C1C1C;
+}
+.Block-Recommend-box-wrapper{
+    display: flex;
+    margin-top: 15px;
+    gap: 20px;
+}
+.Block-Recommend-box-title{
+    margin-top: 15px;
+    color: #505050;
+    font-size: 16px;
+}
+.Block-Recommend-box-price{
+    margin-top: 9px;
+    font-size: 15px;
+    color: #8B96A5;
+}

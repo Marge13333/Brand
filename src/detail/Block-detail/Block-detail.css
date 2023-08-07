@@ -1,0 +1,100 @@
+.Block-Detail-block{
+    max-width: 880px;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+    padding-bottom: 29px;
+    margin-top: 20px;
+}
+.Block-Detail{
+    max-width: 1180px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+}
+.block-detail-header{
+    border: 1px solid #DEE2E7;
+}
+.block-detail-header-wrapper{
+    display: flex;
+    gap: 36px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left:24px;
+}
+.bloct-detail-header-texts{
+    cursor: pointer;
+    font-size: 16px;
+    color: #8B96A5;
+}
+.block-detail-main{
+    margin-top: 18px;
+    margin-left: 26px;
+}
+.block-detail-main-text{
+    max-width: 798px;
+    width: 100%;
+    font-size: 16px;
+    color: #505050;
+}
+.block-detail-main-img-d{
+    margin-top:23px ;
+}
+.block-detail-main-details{
+    display: flex;
+    margin-top: 26px;
+    flex-direction: column;
+    gap:10px ;
+}
+.block-detail-main-details-box{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.block-detail-main-img{
+    margin-top: 0;
+}
+.block-detail-main-details-texts{
+    color: #505050;
+    font-size: 16px;
+}
+.Block-Detail-may-like{
+    max-width: 280px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border: 1px solid #DEE2E7;
+    padding-top: 20px;
+    padding-left: 15px;
+    margin-top: 20px;
+    height: 553px;
+}
+.Block-Detail-may-like-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.Block-Detail-may-like-title{
+    color: #1C1C1C;
+    font-size: 16px;
+}
+.Block-Detail-may-like-box{
+    display: flex;
+    gap: 10px;
+}
+.Block-Detail-may-like-box-texts{
+    max-width: 150px;
+    width: 100%;
+    text-align: start;
+}
+.Block-Detail-may-like-box-name{
+    color: #1C1C1C;
+    font-size: 16px;
+}
+.Block-Detail-may-like-box-price{
+    font-size: 13px;
+    color: #8B96A5;
+}

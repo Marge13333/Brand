@@ -1,5 +1,22 @@
+import { useState } from "react";
+import {
+    Link
+  } from "react-router-dom";
 import "./productlist.css"
 const ProductList = () =>{
+
+    const [grid,setGrid] = useState("")
+
+    function GridView (){
+        setGrid("grid")
+
+    }
+   function ListView(){
+
+   }
+
+
+
     return(
         <section className="Main-Product-List">
             <div className="main-product-list-header">
@@ -18,14 +35,15 @@ const ProductList = () =>{
                             <img src={require('./product-list-img/expand_more.svg').default} alt="dropUp" />
                          </div>
                          <div className="grid-or-list-wrap">
-                           <img className="grid-or-list" src={require('./product-list-img/gridview.svg').default} alt="dropUp" />
-                           <img className="grid-or-list" src={require('./product-list-img/listview.svg').default} alt="dropUp" />
+                           <img onClick={GridView} className="grid-or-list" src={require('./product-list-img/gridview.svg').default} alt="dropUp" />
+                           <img onClick={ListView} className="grid-or-list" src={require('./product-list-img/listview.svg').default} alt="dropUp" />
                          </div>
                     </div>
                 </div>
             </div>
             <div className="search-product-list">
-                <div className="search-product-list-box">
+            <Link className="link-style" to={'/Detail'} >
+            <div className='search-product-list-box'>
                     <div className="search-product-list-box-wrapper">
                        <img className="product-img-list" src={require('./product-list-img/1.svg').default} alt="dropUp" />
                        <div className="product-all-detal">
@@ -53,7 +71,10 @@ const ProductList = () =>{
                     </div>
                     
                 </div>
-                <div className="search-product-list-box">
+          
+          </Link>
+          <Link className="link-style" to={'/Detail'} >
+          <div className="search-product-list-box">
                     <div className="search-product-list-box-wrapper">
                        <img className="product-img-list" src={require('./product-list-img/2svg.svg').default} alt="dropUp" />
                        <div className="product-all-detal">
@@ -80,7 +101,9 @@ const ProductList = () =>{
                     </div>
                     
                 </div>
-                <div className="search-product-list-box">
+          </Link>
+          <Link className="link-style" to={'/Detail'} >
+          <div className="search-product-list-box">
                     <div className="search-product-list-box-wrapper">
                        <img className="product-img-list" src={require('./product-list-img/3svg.svg').default} alt="dropUp" />
                        <div className="product-all-detal">
@@ -107,6 +130,8 @@ const ProductList = () =>{
                     </div>
                     
                 </div>
+          </Link>
+                <Link className="link-style" to={'/Detail'} >
                 <div className="search-product-list-box">
                     <div className="search-product-list-box-wrapper">
                        <img className="product-img-list" src={require('./product-list-img/real 4.svg').default} alt="dropUp" />
@@ -134,6 +159,9 @@ const ProductList = () =>{
                     </div>
                     
                 </div>
+          </Link>
+                
+                <Link className="link-style" to={'/Detail'} >
                 <div className="search-product-list-box">
                     <div className="search-product-list-box-wrapper">
                        <img className="product-img-list" src={require('./product-list-img/4svg.svg').default} alt="dropUp" />
@@ -162,6 +190,8 @@ const ProductList = () =>{
                     </div>
                     
                 </div>
+          </Link>
+                <Link className="link-style" to={'/Detail'} >
                 <div id="del-box" className="search-product-list-box">
                     <div className="search-product-list-box-wrapper">
                        <img className="product-img-list" src={require('./product-list-img/5sbf.svg').default} alt="dropUp" />
@@ -189,7 +219,8 @@ const ProductList = () =>{
                     </div>
                     
                 </div>
-                
+          </Link>
+               
             </div>
             <div className="mobile-version-also-like">
                 <h4 className="also-like-title">

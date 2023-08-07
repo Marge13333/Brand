@@ -158,6 +158,14 @@ display: none;
 .mobile-version-also-like{
     display: none;
 }
+/* grid view */
+.link-style{
+    text-decoration: none;
+}
+
+
+
+
 @media (width <= 375px){
     .main-product-list-header-wrapper{
         display: none;
